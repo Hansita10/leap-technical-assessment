@@ -1,0 +1,9 @@
+<suite name="MiniBookStoreTestSuite" parallel="false">
+
+    <test name="BookStoreTests">
+        <classes>
+            <class name="testscripts.MiniBookStoreTest"/>
+        </classes>
+    </test>
+
+</suite>

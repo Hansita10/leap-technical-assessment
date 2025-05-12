@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-12T16:34:22 AEST" name="MiniBookStoreTestSuite" finished-at="2025-05-12T16:34:54 AEST" duration-ms="31651">
+    <groups>
+    </groups>
+    <test started-at="2025-05-12T16:34:22 AEST" name="BookStoreTests" finished-at="2025-05-12T16:34:54 AEST" duration-ms="31651">
+      <class name="testscripts.MiniBookStoreTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:23 AEST" name="setup" finished-at="2025-05-12T16:34:33 AEST" duration-ms="10559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchAnyBookTest(java.lang.String)[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:33 AEST" name="searchAnyBookTest" data-provider="searchAnyBookTest" finished-at="2025-05-12T16:34:33 AEST" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAnyBookTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:33 AEST" name="tearDown" finished-at="2025-05-12T16:34:34 AEST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:34 AEST" name="setup" finished-at="2025-05-12T16:34:43 AEST" duration-ms="9646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchInvalidBook(java.lang.String)[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:43 AEST" name="searchInvalidBook" data-provider="searchInvalidBook" finished-at="2025-05-12T16:34:44 AEST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInvalidBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:44 AEST" name="tearDown" finished-at="2025-05-12T16:34:44 AEST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:44 AEST" name="setup" finished-at="2025-05-12T16:34:53 AEST" duration-ms="9241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchSpecificBookTest(java.lang.String)[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:53 AEST" name="searchSpecificBookTest" data-provider="searchSpecificBookTest" finished-at="2025-05-12T16:34:53 AEST" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Git Pocket Guide]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSpecificBookTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.MiniBookStoreTest@6150c3ec]" started-at="2025-05-12T16:34:53 AEST" name="tearDown" finished-at="2025-05-12T16:34:54 AEST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.MiniBookStoreTest -->
+    </test> <!-- BookStoreTests -->
+  </suite> <!-- MiniBookStoreTestSuite -->
+</testng-results>
